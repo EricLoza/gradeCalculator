@@ -42,4 +42,9 @@ int main() {
   cout << endl;
   cout << endl;
   cout << attendanceGrade;
+  double finalGrade = gradeCalculator.calculateFinalGrade(gradePercents, gradeValue);
+
+  cout << "Your final grade is: " << finalGrade << endl;
+  cout << endl;
+  
 }

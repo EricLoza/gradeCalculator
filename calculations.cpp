@@ -26,6 +26,7 @@ void calculateGrade::grade(map<string, double>& gradeValue) {
     }       
 }
 
-// double calculatePercentage(map<string, double>& gradePercents, map<string, double>& gradeValue) {
-
-// }
+double calculateGrade::calculateFinalGrade(map<string, double>& gradePercents, map<string, double>& gradeValue) {
+    double finalGrade = 0.0; 
+    return finalGrade; 
+}

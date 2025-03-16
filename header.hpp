@@ -9,7 +9,7 @@ class calculateGrade {
 public:
     void percentage(map<string, double>& gradePercents);
     void grade(map<string, double>& gradeValue);
-    // void calculateFinalGrade(map<string, double>& gradePercents, map<string, double>& gradeValue);
+    double calculateFinalGrade(map<string, double>& gradePercents, map<string, double>& gradeValue);
 };
 
 #endif // HEADER_HPP
