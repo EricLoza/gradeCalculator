@@ -35,7 +35,7 @@ int main() {
   calculateGrade gradeCalculator;
   gradeCalculator.grade(gradeValue);
   gradeCalculator.percentage(gradePercents); 
-    
+
 
   double finalGrade = gradeCalculator.calculateFinalGrade(gradePercents, gradeValue);
 
