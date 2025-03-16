@@ -11,7 +11,7 @@ int main() {
     double assignmentGrade, participationGrade, 
     discussionsGrade, examsGrade, testGrade, projectGrade, attendanceGrade; 
 
-    cout << "test";
+    cout << "tester";
     map<string, double> gradeWeights = {
         {"Assignment Percent", assignmentPercent},
         {"Participation Percent", participationPercent},
