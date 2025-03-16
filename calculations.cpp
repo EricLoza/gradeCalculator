@@ -1,18 +1,33 @@
 #include "header.hpp"
-
-
+#include "main.cpp"
 class calculateGrade {
 
     public: 
-    void percentage() {
+    void percentage( map<string, double> gradePercents) {
 
-        double assignmentPercent, participationPercent, discussionsPercent, examPercent, testPercent, projectPercent, attendancePercent; 
-
+        for(auto &percent : gradePercents) {
+            cout << "Enter the weight percentage for " << percent.first << ": ";
+            cin >> percent.second; 
+        
+          }
+        
+          for(auto &percent : gradePercents) { 
+            cout << percent.first << " " << percent.second << endl; 
+          }
+          cout << endl;
     }
 
     public: 
-    void grade() {
-        double assignmentGrade, participationGrade, discussionsGrade, examsGrade, testGrade, projectGrade, attendanceGrade; 
+    void grade(map<string, double> gradeValue) {
+        for(auto &value : gradeValue) {
+            cout << "Enter the weight percentage for " << value.first << ": ";
+            cin >> value.second; 
+        
+        }
+        
+        for(auto &value : gradeValue) { 
+            cout << value.first << " " << value.second << endl; 
+        }       
     }
 
     public:

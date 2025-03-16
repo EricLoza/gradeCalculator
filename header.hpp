@@ -1,4 +1,6 @@
 #include <iostream>
 #include <map>
 
-class calculateGrade; 
+using namespace std; 
+void percentage(map<string, double> &gradePercents);
+void grade(map<string, double> &gradeValue);
