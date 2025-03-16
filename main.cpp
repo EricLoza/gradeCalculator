@@ -8,8 +8,7 @@ int main() {
   double assignmentPercent, participationPercent, discussionsPercent, examPercent, 
   testPercent, projectPercent, attendancePercent;
 
-  double assignmentGrade, participationGrade, 
-  discussionsGrade, examsGrade, testGrade, projectGrade, attendanceGrade; 
+  double assignmentGrade, participationGrade, discussionsGrade, examsGrade, testGrade, projectGrade, attendanceGrade;
 
 
   map<string, double> gradePercents = {
@@ -34,16 +33,13 @@ int main() {
 
   cout << "Let's calculate your grade!\n";
   calculateGrade gradeCalculator;
-  gradeCalculator.percentage(gradePercents); 
   gradeCalculator.grade(gradeValue);
+  gradeCalculator.percentage(gradePercents); 
     
 
-
-  cout << endl;
-  cout << attendanceGrade;
   double finalGrade = gradeCalculator.calculateFinalGrade(gradePercents, gradeValue);
 
-  cout << "Your final grade is: " << finalGrade << endl;
-  cout << endl;
+  cout << "\nYour final grade is: " << finalGrade << endl;
+
   
 }
