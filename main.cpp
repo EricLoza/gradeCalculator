@@ -1,7 +1,4 @@
 #include "header.hpp"
-/*A C++ project is designed with an object-oriented approach, with classes for customers, accounts, transactions, and banking services. Features included creating and managing customers, accounts, and transactions, as well as performing banking services such as withdrawals, deposits, and transfers. It also allows customers to view their account information, including account balances, recent transactions, and other details.
-
-Technologies Required: C++ programming language, OOPS, and MySQL.*/
 
 int main() { 
 
@@ -12,23 +9,23 @@ int main() {
 
 
   map<string, double> gradePercents = {
-    {"Assignment Percent", assignmentPercent},
-    {"Participation Percent", participationPercent},
-    {"Discussion Percent", discussionsPercent},
-    {"Exam Percent", examPercent},
-    {"Test Percent", testPercent},
-    {"Project Percent", projectPercent},
-    {"Attendance Percent", attendancePercent}
+    {"Assignment Percent", assignmentPercent = 0.0},
+    {"Participation Percent", participationPercent = 0.0},
+    {"Discussion Percent", discussionsPercent = 0.0},
+    {"Exam Percent", examPercent = 0.0},
+    {"Test Percent", testPercent = 0.0},
+    {"Project Percent", projectPercent = 0.0},
+    {"Attendance Percent", attendancePercent = 0.0}
   };
 
   map<string, double> gradeValue = {
-    {"Assignment Grade", assignmentGrade},
-    {"Participation Grade", participationGrade},
-    {"Discussion Grade", discussionsGrade},
-    {"Exam Grade", examsGrade},
-    {"Test Grade", testGrade},
-    {"Project Grade", projectGrade},
-    {"Attendance Grade", attendanceGrade}
+    {"Assignment Grade", assignmentGrade = 0.0},
+    {"Participation Grade", participationGrade = 0.0},
+    {"Discussion Grade", discussionsGrade = 0.0},
+    {"Exam Grade", examsGrade = 0.0},
+    {"Test Grade", testGrade = 0.0},
+    {"Project Grade", projectGrade = 0.0},
+    {"Attendance Grade", attendanceGrade = 0.0}
   };
 
   cout << "Let's calculate your grade!\n";
